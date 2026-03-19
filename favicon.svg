@@ -1,42 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-<defs>
-<linearGradient id="aura1" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#FFB478"/>
-<stop offset="100%" stop-color="#C88CFF"/>
-</linearGradient>
-<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-<stop offset="0%" stop-color="#FFB478" stop-opacity="0.35"/>
-<stop offset="100%" stop-color="#FFB478" stop-opacity="0"/>
-</radialGradient>
-</defs>
-<rect width="512" height="512" rx="96" fill="#f5f0ea"/>
-<circle cx="256" cy="256" r="160" fill="url(#glow)"/>
-<!-- Warp threads (vertical) -->
-<line x1="156" y1="100" x2="156" y2="412" stroke="#FFB478" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
-<line x1="216" y1="88" x2="216" y2="424" stroke="#C88CFF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
-<line x1="276" y1="84" x2="276" y2="428" stroke="#78C8FF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
-<line x1="336" y1="88" x2="336" y2="424" stroke="#C88CFF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
-<line x1="396" y1="100" x2="396" y2="412" stroke="#FFB478" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
-<!-- Weft threads (horizontal, weaving) -->
-<path d="M88,156 Q156,136 156,156 Q156,176 216,156 Q276,136 276,156 Q276,176 336,156 Q396,136 396,156 Q396,176 424,156" fill="none" stroke="#E8A060" stroke-width="7" stroke-linecap="round" opacity="0.65"/>
-<path d="M84,216 Q156,236 156,216 Q156,196 216,216 Q276,236 276,216 Q276,196 336,216 Q396,236 396,216 Q396,196 428,216" fill="none" stroke="#A088E0" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
-<path d="M84,276 Q156,256 156,276 Q156,296 216,276 Q276,256 276,276 Q276,296 336,276 Q396,256 396,276 Q396,296 428,276" fill="none" stroke="#60B8E0" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
-<path d="M88,336 Q156,356 156,336 Q156,316 216,336 Q276,356 276,336 Q276,316 336,336 Q396,356 396,336 Q396,316 424,336" fill="none" stroke="#E8A060" stroke-width="7" stroke-linecap="round" opacity="0.65"/>
-<path d="M92,396 Q156,376 156,396 Q156,416 216,396 Q276,376 276,396 Q276,416 336,396 Q396,376 396,396 Q396,416 420,396" fill="none" stroke="#A088E0" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
-<!-- Intersection highlights -->
-<circle cx="156" cy="156" r="9" fill="#FFB478" opacity="0.9"/>
-<circle cx="276" cy="156" r="8" fill="#78C8FF" opacity="0.75"/>
-<circle cx="396" cy="156" r="9" fill="#FFB478" opacity="0.85"/>
-<circle cx="216" cy="216" r="8" fill="#C88CFF" opacity="0.75"/>
-<circle cx="336" cy="216" r="8" fill="#C88CFF" opacity="0.7"/>
-<circle cx="156" cy="276" r="8" fill="#FFB478" opacity="0.75"/>
-<circle cx="276" cy="276" r="8" fill="#78C8FF" opacity="0.75"/>
-<circle cx="396" cy="276" r="8" fill="#FFB478" opacity="0.75"/>
-<circle cx="216" cy="336" r="8" fill="#C88CFF" opacity="0.75"/>
-<circle cx="336" cy="336" r="9" fill="#FFB478" opacity="0.9"/>
-<circle cx="156" cy="396" r="8" fill="#FFB478" opacity="0.7"/>
-<circle cx="276" cy="396" r="8" fill="#78C8FF" opacity="0.65"/>
-<circle cx="396" cy="396" r="8" fill="#FFB478" opacity="0.7"/>
-<!-- Outer frame -->
-<rect x="68" y="68" width="376" height="376" rx="72" fill="none" stroke="url(#aura1)" stroke-width="3" opacity="0.3"/>
+<rect width="512" height="512" rx="96" fill="#1e2428"/>
+<!-- Warp: thick, solid, alternating jade/gold -->
+<line x1="152" y1="88" x2="152" y2="424" stroke="#5E8858" stroke-width="14" stroke-linecap="round" opacity="0.92"/>
+<line x1="216" y1="78" x2="216" y2="434" stroke="#A89040" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+<line x1="280" y1="74" x2="280" y2="438" stroke="#5E8858" stroke-width="14" stroke-linecap="round" opacity="0.92"/>
+<line x1="344" y1="78" x2="344" y2="434" stroke="#A89040" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+<line x1="400" y1="88" x2="400" y2="424" stroke="#5E8858" stroke-width="14" stroke-linecap="round" opacity="0.92"/>
+<!-- Weft: thick, solid -->
+<path d="M74,152 Q152,122 152,152 Q152,182 216,152 Q280,122 280,152 Q280,182 344,152 Q400,122 400,152 Q400,182 438,152" fill="none" stroke="#B8A050" stroke-width="12" stroke-linecap="round" opacity="0.88"/>
+<path d="M70,216 Q152,246 152,216 Q152,186 216,216 Q280,246 280,216 Q280,186 344,216 Q400,246 400,216 Q400,186 442,216" fill="none" stroke="#4E7A48" stroke-width="11" stroke-linecap="round" opacity="0.78"/>
+<path d="M70,280 Q152,250 152,280 Q152,310 216,280 Q280,250 280,280 Q280,310 344,280 Q400,250 400,280 Q400,310 442,280" fill="none" stroke="#B8A050" stroke-width="11" stroke-linecap="round" opacity="0.78"/>
+<path d="M74,344 Q152,374 152,344 Q152,314 216,344 Q280,374 280,344 Q280,314 344,344 Q400,374 400,344 Q400,314 438,344" fill="none" stroke="#5E8858" stroke-width="12" stroke-linecap="round" opacity="0.88"/>
+<path d="M78,400 Q152,370 152,400 Q152,430 216,400 Q280,370 280,400 Q280,430 344,400 Q400,370 400,400 Q400,430 434,400" fill="none" stroke="#A89040" stroke-width="11" stroke-linecap="round" opacity="0.72"/>
+<!-- Intersection nodes: large, strong -->
+<circle cx="152" cy="152" r="13" fill="#90C080" opacity="1"/>
+<circle cx="280" cy="152" r="12" fill="#D0B860" opacity="0.95"/>
+<circle cx="400" cy="152" r="13" fill="#90C080" opacity="1"/>
+<circle cx="216" cy="216" r="11" fill="#A89040" opacity="0.9"/>
+<circle cx="344" cy="216" r="11" fill="#A89040" opacity="0.85"/>
+<circle cx="152" cy="280" r="12" fill="#D0B860" opacity="0.9"/>
+<circle cx="280" cy="280" r="12" fill="#78A870" opacity="0.95"/>
+<circle cx="400" cy="280" r="12" fill="#D0B860" opacity="0.9"/>
+<circle cx="216" cy="344" r="11" fill="#A89040" opacity="0.9"/>
+<circle cx="344" cy="344" r="13" fill="#90C080" opacity="1"/>
+<circle cx="152" cy="400" r="11" fill="#90C080" opacity="0.82"/>
+<circle cx="280" cy="400" r="11" fill="#A89040" opacity="0.78"/>
+<circle cx="400" cy="400" r="11" fill="#90C080" opacity="0.82"/>
+<!-- Strong outer frame -->
+<rect x="52" y="52" width="408" height="408" rx="74" fill="none" stroke="#5E8858" stroke-width="3.5" opacity="0.4"/>
 </svg>
